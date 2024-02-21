@@ -1,7 +1,7 @@
 // selection_sort.js
 // Selection sort algorithm
 
-const selectionSort = (arr) => {
+const insertionSort = (arr) => {
     for( i= 1;i<arr.length;i++) {
         var noToInsert = arr[i];
         let j = i-1;
@@ -15,4 +15,4 @@ const selectionSort = (arr) => {
     return arr;
 };
   
-console.log(selectionSort([7,8,5,2,4,6,3]))
+console.log(insertionSort([7,8,5,2,4,6,3]))
